@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anders Børjesson - (anbo)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet"> <!-- Eksternt CSS -->
+
+ 
+<style> /* internt CSS */
+  .YellowTextBlackBackground 
+  {
+  color: #FFF387; /* En lys gul farve */
+  background-color: black; /* En sort baggrund */
+  }
+
+  .boks 
+  {
+    border: 2px solid black; /* Definerer en sort kant på 2px */
+    padding: 20px;           /* Indvendig afstand fra kant til indhold */
+    margin: 3px;            /* Udvendig afstand fra andre elementer */
+    
+    
+    background-color: #FFF387;
+    color: black;
+    border-radius: 15px; /* Runde hjørner */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtil skygge */
+    line-height: 1.6; /* Forbedret læsbarhed med mere luft mellem linjerne */
+    
+  }
+  .boks:hover {
+    transform: scale(1.02); /* Boksene vokser en smule ved hover */
+    transition: transform 0.2s ease; /* Glidende effekt */
+}
+
+  .BlackTextYellowBackground 
+  {
+    color: black; /* Sort farve */
+    background-color: #FFF387; /* En lys gul farve */
+
+  }
+</style>
+</head>
+<body>
+  <!-- Definer en div class som hedder YellowTextBlackBackground i css, og text-center er en som allered er der som center text, bruger h1-->
+    <div class="YellowTextBlackBackground text-center"> 
+        
+      <h1>Anders Børjesson (anbo)</h1> <hr>
+       
+       
+              
+      </div>
+      <!-- bruger container og text-center div class -->
+      <div class="container text-center">
+       
+        <hr>
+        <p>Cand.scient. i matematik og datalogi <br>
+          Lektor på Datamatikeruddannelsen <br>
+          Zealand, Sjællands Erhvervsakademi, Roskilde</p>  
+        <hr>
+      </div>
+       <!-- Definer en div class som hedder YellowTextBlackBackground i css, og text-center er en som allered er der som center text, bruger h2-->
+      <div class="YellowTextBlackBackground text-center">  <hr>
+        <h2>Info about the semester: </h2> <hr>
+       
+      </div>
+      <!-- bruger container , row, col-sm (jeg har col-sm-4 to gang og en col-sm-3 får at få noget luft mellem boksene) div class som allered findes derefter har jeg selv lavet en som hedder boks for at får dem til at se bedre ud -->
+        <!--hardcodes link til de andre sider-->
+      <div class="container">
+        <div class="row">
+          <div class="boks col-sm-4">
+            <h3>Teaching autumn 2019</h3>
+           <ul>
+            
+              <li><a href="https://docs.google.com/document/d/e/2PACX-1vQnP5GDXd2YmuUapbnNgaUAK-4gsDtZGDl-qZT-g3xsUCSvPhfr1OTdo7esf_b3qm3ypfQSwMuz5Mab/pub">Programmering 3sem Datamatiker</a></li>
+              <li><a href="https://docs.google.com/document/d/e/2PACX-1vQSdR7ZSr7DfFCc8SC0tSqz8VaLKHN8LCGRmfxTFVnl1GgkHnk_Wr_-7r_Lr5EX-qpOt7sBzo6SmHH0/pub">Mobile Application Development, 4th semester Comp Science</a></li>
+              <li><a href="https://anbo-easj.dk/internship/index.html">Internship, 5th semester, Comp Science</a></li>
+              <li><a href="https://anbo-easj.dk/dissertation2020spring/">Dissertation course
+                Dissertations, Computer Science</a></li>
+             
+            
+           </ul>
+          </div>
+          <div class="boks col-sm-3">
+            <h3>Teaching spring 2019</h3>
+            <ul>
+              
+                <li><a href="https://anbo-easj.dk/mobile2019spring/index.html">Mobile Application Development, 4th semester Comp Science</a></li>
+                <li><a href="https://anbo-easj.dk/internship/index.html">Internship, 5th semester, Comp Science</a></li>
+                <li><a href="https://anbo-easj.dk/dissertation2019spring/">Dissertation course
+                  Dissertations, Computer Science</a></li>
+              
+             </ul>
+          </div>
+          <div class="col-sm-4 boks">
+            <h3>Teaching autumn 2018</h3>        
+            <ul>
+              
+                <li><a href="https://anbo-easj.dk/prog3_2018autumn/index.html">Programming, 3rd semester, Comp Science</a></li>
+                <li><a href="https://anbo-easj.dk/mobile2018autumn/index.html">Mobile Application Development, 4th semester Comp Science</a></li>
+                <li><a href="https://anbo-easj.dk/internship/index.html">Internship, 5th semester, Comp Science</a></li>
+                <li><a href="https://anbo-easj.dk/dissertation2018autumn/">Dissertation course
+                  Dissertations, Computer Science</a></li>
+              
+              
+             </ul>
+              
+          </div>
+        
+          
+        </div>
+      </div>
+  <!-- bruger container , row, col-sm (kan vide bygge hvis man synes der er noget som passer med små links), ellers lige nu er det kun den sidste col-sm som bliver brugt med det link til de andre semester -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+    
+      </div>
+      <div class="col-sm-4">
+
+      </div>
+      <div class="col-sm-2">
+         <!--hardcodes link til de andre sider-->
+  <a href="https://anbo-easj.dk/undervisning/">Previous semesters</a>
+
+
+      </div>
+        </div>
+      </div>
+ <!-- Definer en div class som hedder YellowTextBlackBackground i css, og text-center er en som allered er der som center text, bruger h4 (da vi er kommet lidt mere ned i siden)-->
+      <div class="YellowTextBlackBackground text-center"> <hr>
+        <h4>Information:</h4>  <hr>
+          </div>
+         <!-- bruger container , row, col-sm (jeg har col-sm-4 to gang og en col-sm-3 får at få noget luft mellem boksene) div class som allered findes derefter har jeg selv lavet en som hedder boks for at får dem til at se bedre ud -->
+      <div class="container">
+        <div class="row" >
+        <div class="col-sm-4 boks">
+         
+          <p>
+            Address (work): <br>
+            Maglegårdsvej 2, 4000 Roskilde <br>
+            E-mail (work) anbo(at)zealand.dk
+          </p>
+      
+      </div>
+      <div class="col-sm-3 boks" >
+        <p>Erhvervsakademi Sjælland ~ Anders Børjesson</p>
+        <p>
+            <!--hardcodes link til de andre sider-->
+          <a href="https://anbo-easj.dk/cv/">CV</a>
+        </p>
+      </div>
+      <div class="col-sm-4 boks">
+<P>
+  <!--hardcodes link til de andre sider-->
+ <a href="https://learn.microsoft.com/en-us/">Microsoft Developer Network</a> | <a href="https://learn.microsoft.com/en-us/docs/">MSDN Library: Intro. til programmeringssprog mv.</a> 
+<a href="https://anbo-easj.dk/bekendtgoerelser/">Bekendtgørelser</a> om datamatiker-uddannelsen, eksamen og lign. <a href="https://anbo-easj.dk/index.htm">index</a> 
+</P>
+      </div>
+        </div>
+      </div>
+      
+</body>
+</html>

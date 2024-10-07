@@ -1,0 +1,16 @@
+
+a 
+{
+  color: black; /* Sort farve på links */
+}
+a:hover 
+{
+  color: #CC5500; /* En tydelig rød/orange farve ved hover */
+  text-decoration: none; /* Fjerner understregningen ved hover */
+}
+
+body 
+{
+  background-color: #faf6ea; /* En lys beige farve */
+
+}
